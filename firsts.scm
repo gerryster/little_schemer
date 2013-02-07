@@ -10,3 +10,4 @@
 
 (write "three element list")
 (write (firsts (quote ((a b) (c d) (e f)))))
+  
