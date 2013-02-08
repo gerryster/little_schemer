@@ -5,7 +5,7 @@
       (else 
         (cond
           ((eq? (car lat) old)
-            (cons (car lat)(cons new (insertR new old (cdr lat)))))
+            (cons old(cons new (insertR new old (cdr lat)))))
           ; The following is The Little Schemer version.  I used the above to
           ; insert the new element to the right of ALL occurrences of old.
           ;((eq? (car lat) old)
